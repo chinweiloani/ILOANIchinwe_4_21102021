@@ -283,7 +283,7 @@ body {
     max-height: 200px;
    }
    .navbar-brand img:hover{
-    border-bottom: solid #dd4c0d 2px;
+    border-bottom: solid #f37f49 2px;
    }
    .navbar-brand img[src$="svg"] {
     min-width: 100px;
@@ -301,7 +301,7 @@ body {
     border-bottom: solid 2px white;
    }
    .navbar-nav li:hover {
-    border-bottom: solid 2px #dd4c0d;
+    border-bottom: solid 2px #f37f49;
    }
    .nav > li {
     float: left;
@@ -487,23 +487,23 @@ body {
     bottom: 20px;
     right: 20px;
     z-index: 500;
-    opacity: 1;
+    opacity: 1; 
     transition: all 0.5s ease-in-out;
     background-color:#692D11;
-    border: solid 2px #6cf3a0;
+    border: solid 2px #ffffff;
     transition: all 0.5s ease-in-out 0s;
     border-width: 2px;
     border-style: solid;
-    border-color: transparent;
+    border-color: #ffffff;
     border-image: initial;
    }
    .scrollToTop:hover {
-    background-color: #dd4c0d;
-    border: solid 3px #6cf3a0;
+    background-color: #692D11;
+    border: solid 3px #ffffff;
    }
    .scrollToTop:focus {
-    background-color: #dd4c0d;
-    border: solid 3px #6cf3a0;
+    background-color: #692D11;
+    border: solid 3px #ffffff; 
    }
    .scrollToTop span {
     margin-top: 6px;
@@ -740,11 +740,11 @@ body {
     text-decoration: underline !important;
    }
    .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #f37f49;
    }
-   /*information*/
+   
    .bgc-atomic-tangerine--color {
-    background-color: #f3976c;
+    background-color: #f37f49;
    }
    .col-sm-12 h2 {
     color: #ffffff !important;
@@ -769,9 +769,11 @@ body {
    }
    #form_1 button {
     color: #ffffff !important;
+    width: 100%;
+    border-radius: 10px;
    }
    .btn-atomic-tangerine:hover {
-    background: #F3976C !important;
+    background: #f37f49 !important;
     color: #ffffff !important;
     border: solid 2px #6cf3a0 !important;
    }
