@@ -318,7 +318,7 @@ body {
    .navbar-toggle {
     margin: 10px 10px 0 0;
     border: 0;
-    visibility: hidden;
+    /* visibility: hidden; */
    }
    .navbar-toggle:hover {
     background: transparent !important;
@@ -809,6 +809,7 @@ body {
    #form_1 {
     font-size: 16px;
     width: 70%;
+   
    }
    .form-group{
     margin: 20px 0px 10px 0px;
@@ -819,6 +820,7 @@ body {
     width: 100%;
     border-radius: 5px;
     margin-top: 5px;
+    
    }
    #form_1 input:focus,
    #form_1 textarea:focus {
@@ -827,16 +829,16 @@ body {
    @media (max-width: 1024px) {
     .bloc {
     padding-left: 20px;
-    padding-right: 20px;
+    padding-right: 20px; 
     }
-    .bloc.full-width-bloc,
+    /* .bloc.full-width-bloc,
     .bloc-tile-2.full-width-bloc .container,
     .bloc-tile-3.full-width-bloc .container,
     .bloc-tile-4.full-width-bloc .container {
     padding-left: 0;
     padding-right: 0;
     }
-   }
+   } */
    @media (max-width: 992px) and (min-width: 768px) {
     .navbar .nav {
     max-width: 80%;
@@ -923,6 +925,7 @@ body {
     text-align: left;
     padding-left: 15px;
     width: 100%;
+    
     }
     .nav > li:hover {
     background: rgba(0, 0, 0, 0.10);
@@ -939,7 +942,7 @@ body {
     background: rgba(0, 0, 0, 0.8);
     }
     #hero-bloc .navbar .nav a {
-    color: rgba(255, 255, 255, 0.6);
+    color: rgba(255, 255, 255, 0.6); 
     }
     .hero {
     padding: 50px 0;
@@ -975,6 +978,7 @@ body {
     .bloc-md {
     padding-left: 0;
     padding-right: 0;
+    
     }
     .bloc-tile-2 .container,
     .bloc-tile-3 .container,
