@@ -16,12 +16,15 @@ body {
     text-decoration: none;
     cursor: pointer;
    }
-   .navInputFocus:focus {
+   .navInputFocus:focus {   /**/
     border-color: #313030;
     outline: 0;
     outline: thin dotted;
     -moz-box-shadow: 0 0 8px #313030;
     box-shadow: 0 0 8px #313030!important; 
+   }
+   .imgLogoSize {       /**/
+       width: 80px;
    }
    #page-loading-blocs-notifaction {
     position: fixed;
@@ -29,7 +32,7 @@ body {
     bottom: 0;
     width: 100%;
     z-index: 100000;
-    background: #ffffff url("img/pageload-spinner.gif") no-repeat center center;
+   /*  background: #ffffff url("img/pageload-spinner.gif") no-repeat center center; */
    }
    .bloc {
     width: 100%;
@@ -43,7 +46,7 @@ body {
     position: relative;
     background-position: center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: fixed; 
    }
    .bloc .container {
     padding-left: 0;
@@ -57,9 +60,9 @@ body {
     text-align: center;
     
    }
-   .bloc-md {
+   /* .bloc-md {
     padding: 50px;
-   }
+   } */
    .bloc-sm {
     padding: 20px 50px;
    }
@@ -281,13 +284,14 @@ body {
     margin: 0 5px 0 20px;
     display: inline-block;
     max-height: 200px;
+    height: 40px;
    }
    .navbar-brand img:hover{
     border-bottom: solid #f37f49 2px;
    }
    .navbar-brand img[src$="svg"] {
     min-width: 100px;
-   }
+   } 
    .nav-center .navbar-brand img {
     margin: 0;
    }
@@ -303,7 +307,7 @@ body {
    .navbar-nav li:hover {
     border-bottom: solid 2px #f37f49;
    }
-   .nav > li {
+   .nav > li { 
     float: left;
     margin-top: 4px;
     font-size: 16px;
@@ -318,7 +322,7 @@ body {
    .navbar-toggle {
     margin: 10px 10px 0 0;
     border: 0;
-    /* visibility: hidden; */
+    visibility: visible;  
    }
    .navbar-toggle:hover {
     background: transparent !important;
@@ -337,21 +341,21 @@ body {
     z-index: 2;
    }
    @media (min-width: 768px) {
-    .site-navigation {
+    /* .site-navigation {
     position: absolute;
     top: 50%;
     right: 20px;
     transform: translate(0, -50%);
     -webkit-transform: translateY(-50%);
-    }
-    .nav > li .dropdown-menu a,
+    } */
+    /* .nav > li .dropdown-menu a,
     .nav > li .dropdown-menu a:hover {
     color: #313030;
-    }
-    .nav-invert .site-navigation {
+    } */
+    /* .nav-invert .site-navigation {
     left: 0;
     right: 0;
-    }
+    } */
     .nav-center {
     text-align: center;
     }
@@ -364,13 +368,13 @@ body {
     float: none;
     display: inline-block;
     }
-    .nav-center .site-navigation {
+    /* .nav-center .site-navigation {
     position: relative;
     width: 100%;
     right: 0;
     margin-right: 0px;
     margin-top: 20px;
-    }
+    } */
     .nav-center.mini-nav .navbar-toggle {
     float: none;
     margin: 10px auto 0;
@@ -722,6 +726,11 @@ body {
     padding: 40px 40px 40px 40px;
     border-radius: 50px;
    }
+   .imgRealisations {   /**/
+       height: 200px;
+       width: 200px;
+   }
+
    /*green background*/
    .green-background {
     background-color: #0f240b;
@@ -789,7 +798,7 @@ body {
    }
    .bg-banniere {
     background-image: url("img/la-chouette-agence-banniere.webp");
-   }
+   } 
    .bg-presentation {
     background-image: url("img/image-de-presentation.webp");
    }
@@ -808,7 +817,7 @@ body {
    /*contact page*/
    #form_1 {
     font-size: 16px;
-    width: 70%;
+    width: 85%;
    
    }
    .form-group{
@@ -831,14 +840,17 @@ body {
     padding-left: 20px;
     padding-right: 20px; 
     }
-    /* .bloc.full-width-bloc,
+
+    .bloc.full-width-bloc,
     .bloc-tile-2.full-width-bloc .container,
     .bloc-tile-3.full-width-bloc .container,
     .bloc-tile-4.full-width-bloc .container {
     padding-left: 0;
     padding-right: 0;
-    }
-   } */
+    } 
+
+   } 
+
    @media (max-width: 992px) and (min-width: 768px) {
     .navbar .nav {
     max-width: 80%;
@@ -917,7 +929,7 @@ body {
     transform: none;
     -webkit-transform: none;
     -ms-transform: none;
-    }
+    } 
     .nav > li {
     margin-top: 0;
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
@@ -925,6 +937,8 @@ body {
     text-align: left;
     padding-left: 15px;
     width: 100%;
+    list-style: none;
+    text-transform: none;
     
     }
     .nav > li:hover {
@@ -956,7 +970,7 @@ body {
     overflow-x: hidden;
     -webkit-box-shadow: none;
     box-shadow: none;
-    }
+    } 
     .nav-invert .navbar-header {
     float: none;
     width: 100%;
@@ -974,8 +988,8 @@ body {
     .bloc-lg {
     padding: 40px 0;
     }
-    .bloc-sm,
-    .bloc-md {
+    /**/
+    .bloc-sm {
     padding-left: 0;
     padding-right: 0;
     
