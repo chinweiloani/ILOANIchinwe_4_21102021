@@ -32,7 +32,7 @@ body {
     bottom: 0;
     width: 100%;
     z-index: 100000;
-   /*  background: #ffffff url("img/pageload-spinner.gif") no-repeat center center; */
+    background: #ffffff url("img/pageload-spinner.gif") no-repeat center center;
    }
    .bloc {
     width: 100%;
@@ -322,8 +322,7 @@ body {
    .navbar-toggle {
     margin: 10px 10px 0 0;
     border: 0;
-    visibility: visible;  
-   }
+   } 
    .navbar-toggle:hover {
     background: transparent !important;
    }
@@ -341,21 +340,21 @@ body {
     z-index: 2;
    }
    @media (min-width: 768px) {
-    /* .site-navigation {
+    .site-navigation {
     position: absolute;
     top: 50%;
     right: 20px;
     transform: translate(0, -50%);
     -webkit-transform: translateY(-50%);
-    } */
-    /* .nav > li .dropdown-menu a,
+    } 
+    .nav > li .dropdown-menu a,
     .nav > li .dropdown-menu a:hover {
     color: #313030;
-    } */
-    /* .nav-invert .site-navigation {
+    } 
+    .nav-invert .site-navigation {
     left: 0;
     right: 0;
-    } */
+    } 
     .nav-center {
     text-align: center;
     }
@@ -368,13 +367,13 @@ body {
     float: none;
     display: inline-block;
     }
-    /* .nav-center .site-navigation {
+    .nav-center .site-navigation {
     position: relative;
     width: 100%;
     right: 0;
     margin-right: 0px;
     margin-top: 20px;
-    } */
+    } 
     .nav-center.mini-nav .navbar-toggle {
     float: none;
     margin: 10px auto 0;
@@ -407,6 +406,15 @@ body {
     margin: 6px -5px 0 0 !important;
     float: right;
    }
+
+   .navbar-nav .open .dropdown-menu > li > a {
+    text-align: inherit;
+   }
+   .navbar-toggle {
+    margin: 10px 10px 0 0;
+    border: 0;  
+   }
+  
    .mg-md {
     margin-top: 10px;
     margin-bottom: 20px;
@@ -726,11 +734,9 @@ body {
     padding: 40px 40px 40px 40px;
     border-radius: 50px;
    }
-   .imgRealisations {   /**/
+   .imgRealisations {
        height: 200px;
-       width: 200px;
    }
-
    /*green background*/
    .green-background {
     background-color: #0f240b;
@@ -918,7 +924,8 @@ body {
     .navbar .nav {
     padding-top: 0;
     border-top: 1px solid rgba(0, 0, 0, 0.2);
-    float: none !important;
+    float: none !important; 
+    
     }
     .navbar.row {
     margin-left: 0;
@@ -941,6 +948,7 @@ body {
     text-transform: none;
     
     }
+       
     .nav > li:hover {
     background: rgba(0, 0, 0, 0.10);
     }
@@ -993,6 +1001,10 @@ body {
     padding-left: 0;
     padding-right: 0;
     
+    }
+    .bloc-md {
+        padding-left: 0;
+        padding-right: 0;
     }
     .bloc-tile-2 .container,
     .bloc-tile-3 .container,
