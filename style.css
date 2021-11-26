@@ -16,14 +16,14 @@ body {
     text-decoration: none;
     cursor: pointer;
    }
-   .navInputFocus:focus {   /**/
+   .navInputFocus:focus {   /*added for nav*/
     border-color: #313030;
     outline: 0;
     outline: thin dotted;
     -moz-box-shadow: 0 0 8px #313030;
     box-shadow: 0 0 8px #313030!important; 
    }
-   .imgLogoSize {       /**/
+   .imgLogoSize {       /*added for image logo*/
        width: 80px;
    }
    #page-loading-blocs-notifaction {
@@ -32,7 +32,7 @@ body {
     bottom: 0;
     width: 100%;
     z-index: 100000;
-    background: #ffffff url("img/pageload-spinner.gif") no-repeat center center;
+   /*  background: #ffffff url("img/pageload-spinner.gif") no-repeat center center; */
    }
    .bloc {
     width: 100%;
@@ -60,9 +60,9 @@ body {
     text-align: center;
     
    }
-   /* .bloc-md {
+   .bloc-md {
     padding: 50px;
-   } */
+   } 
    .bloc-sm {
     padding: 20px 50px;
    }
@@ -338,7 +338,7 @@ body {
     float: right;
     position: relative;
     z-index: 2;
-   }
+   } 
    @media (min-width: 768px) {
     .site-navigation {
     position: absolute;
@@ -350,7 +350,7 @@ body {
     .nav > li .dropdown-menu a,
     .nav > li .dropdown-menu a:hover {
     color: #313030;
-    } 
+    }  
     .nav-invert .site-navigation {
     left: 0;
     right: 0;
@@ -366,7 +366,7 @@ body {
     .nav-center .nav > li {
     float: none;
     display: inline-block;
-    }
+    } 
     .nav-center .site-navigation {
     position: relative;
     width: 100%;
@@ -379,11 +379,11 @@ body {
     margin: 10px auto 0;
     }
    }
-   .nav > li > .dropdown a {
+    .nav > li > .dropdown a {
     background: none !important;
     display: block;
     padding: 14px 15px;
-   }
+   } 
    nav .caret {
     margin: 0 5px;
    }
@@ -406,15 +406,6 @@ body {
     margin: 6px -5px 0 0 !important;
     float: right;
    }
-
-   .navbar-nav .open .dropdown-menu > li > a {
-    text-align: inherit;
-   }
-   .navbar-toggle {
-    margin: 10px 10px 0 0;
-    border: 0;  
-   }
-  
    .mg-md {
     margin-top: 10px;
     margin-bottom: 20px;
@@ -797,7 +788,7 @@ body {
     color: #ffffff !important;
     border: solid 2px #F3976C;
    }
-   /*page scroll*/
+   /*background scroll*/
    #bloc-1-hero {
     min-height: 476.033px;
     background-attachment: fixed;
@@ -820,7 +811,7 @@ body {
     margin-left: -40px;
     width: 300px;
    }
-   /*contact page*/
+   /*contact form*/
    #form_1 {
     font-size: 16px;
     width: 85%;
@@ -947,7 +938,7 @@ body {
     list-style: none;
     text-transform: none;
     
-    }
+    } 
        
     .nav > li:hover {
     background: rgba(0, 0, 0, 0.10);
@@ -959,7 +950,7 @@ body {
     border-bottom-color: transparent;
     border-right-color: transparent;
     border-left-color: transparent;
-    }
+    }  
     #hero-bloc .navbar .nav {
     background: rgba(0, 0, 0, 0.8);
     }
@@ -978,7 +969,7 @@ body {
     overflow-x: hidden;
     -webkit-box-shadow: none;
     box-shadow: none;
-    } 
+    }  
     .nav-invert .navbar-header {
     float: none;
     width: 100%;
@@ -986,7 +977,7 @@ body {
     .nav-invert .navbar-toggle {
     float: left;
     margin-left: 10px;
-    }
+    } 
     .bloc {
     padding-left: 0;
     padding-right: 0;
